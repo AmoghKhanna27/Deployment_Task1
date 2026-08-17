@@ -5,3 +5,6 @@ C:\Software deployment\T1\Credit Task\PriceCategorize_Setup\bin\Release\PriceCat
 obj\Release\PriceCategorize_Setup.wixproj.BindContentsFileListnull.txt
 obj\Release\PriceCategorize_Setup.wixproj.BindOutputsFileListnull.txt
 obj\Release\PriceCategorize_Setup.wixproj.BindBuiltOutputsFileListnull.txt
+C:\Software deployment\Submission\DeploymentTask1\Credit\Code\PriceCategorize_Setup\bin\Release\cab1.cab
+C:\Software deployment\Submission\DeploymentTask1\Credit\Code\PriceCategorize_Setup\bin\Release\PriceCategorize_Setup.msi
+C:\Software deployment\Submission\DeploymentTask1\Credit\Code\PriceCategorize_Setup\bin\Release\PriceCategorize_Setup.wixpdb

@@ -44,6 +44,10 @@ namespace PriceChecker_Credit_Task1
                 {
                     lblResult.Text = "Result: Cheap";
                 }
+                else if (price == 100000)
+                {
+                    lblResult.Text = "Result: Cheap innit";
+                }
                 else
                 {
                     lblResult.Text = "Result: Expensive";

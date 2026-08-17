@@ -1,1 +1,1 @@
-C:\Software deployment\T1\Credit Task\PriceChecker_Credit_Task1\bin\Release\PriceChecker_Credit_Task1.exe
+C:\Software deployment\Submission\DeploymentTask1\Credit\Code\PriceChecker_Credit_Task1\bin\Release\PriceChecker_Credit_Task1.exe
