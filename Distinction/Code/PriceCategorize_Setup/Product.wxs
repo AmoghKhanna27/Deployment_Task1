@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<Product Id="*"
+			 Name="Price Categorizer"
+			 Language="1033"
+			 Version="1.0.0.0"
+			 Manufacturer="Amogh"
+			 UpgradeCode="{F8E4E47B-8EDE-4E58-8762-FC947DFA9498}">
+
+		<Package InstallerVersion="200"
+				 Compressed="yes"
+				 InstallScope="perMachine" />
+
+		<MediaTemplate EmbedCab="yes" />
+
+		<Directory Id="TARGETDIR"
+				   Name="SourceDir">
+
+			<Directory Id="ProgramFilesFolder">
+
+				<Directory Id="INSTALLFOLDER"
+						   Name="PriceCategorizer" />
+
+			</Directory>
+
+		</Directory>
+
+
+		<DirectoryRef Id="INSTALLFOLDER">
+
+			
+			<Component Id="MainExecutable"
+					   Guid="{C5ADBEFE-E6F5-4731-A02D-48877EF0FCCB}">
+
+				<File Id="PriceCategorizerEXE"
+					  Source="$(var.PriceChecker_Distinction_Task1.TargetPath)"
+					  KeyPath="yes" />
+
+			</Component>
+
+
+			
+			<Component Id="PricingLogicComponent"
+					   Guid="{3C9E03BE-2445-49B3-AE54-D595DD78449B}">
+
+				<File Id="PricingLogicDLL"
+					  Source="$(var.PricingLogic.TargetPath)"
+					  KeyPath="yes" />
+
+			</Component>
+
+
+			
+			<Component Id="PriceFormatterComponent"
+					   Guid="{E74CE7EB-0221-4D30-A0AD-2ED1584006C6}">
+
+				<File Id="PriceFormatterDLL"
+					  Source="$(var.PriceFormatter.TargetPath)"
+					  KeyPath="yes" />
+
+			</Component>
+
+		</DirectoryRef>
+
+
+		<Feature Id="ProductFeature"
+				 Title="PriceCategorizerSetup"
+				 Level="1">
+
+			<ComponentRef Id="MainExecutable" />
+
+			<ComponentRef Id="PricingLogicComponent" />
+
+			<ComponentRef Id="PriceFormatterComponent" />
+
+		</Feature>
+
+	</Product>
+
+</Wix>

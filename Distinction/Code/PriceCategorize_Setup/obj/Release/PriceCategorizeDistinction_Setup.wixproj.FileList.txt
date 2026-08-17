@@ -1,0 +1,6 @@
+C:\Software deployment\T1\Distinction Task\PriceCategorize_Setup\bin\Release\PriceCategorize_Setup.msi
+C:\Software deployment\T1\Distinction Task\PriceCategorize_Setup\bin\Release\PriceCategorize_Setup.wixpdb
+obj\Release\Product.wixobj
+obj\Release\PriceCategorizeDistinction_Setup.wixproj.BindContentsFileListnull.txt
+obj\Release\PriceCategorizeDistinction_Setup.wixproj.BindOutputsFileListnull.txt
+obj\Release\PriceCategorizeDistinction_Setup.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,6 @@
+C:\Software deployment\T1\Distinction Task\PriceFormatter\bin\Release\PriceFormatter.dll
+C:\Software deployment\T1\Distinction Task\PriceFormatter\bin\Release\PriceFormatter.pdb
+C:\Software deployment\T1\Distinction Task\PriceFormatter\obj\Release\PriceFormatter.csproj.AssemblyReference.cache
+C:\Software deployment\T1\Distinction Task\PriceFormatter\obj\Release\PriceFormatter.csproj.CoreCompileInputs.cache
+C:\Software deployment\T1\Distinction Task\PriceFormatter\obj\Release\PriceFormatter.dll
+C:\Software deployment\T1\Distinction Task\PriceFormatter\obj\Release\PriceFormatter.pdb

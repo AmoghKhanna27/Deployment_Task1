@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" 
+			 Name="Price_Categorizer" 
+			 Language="1033" 
+			 Version="1.0.0.0" 
+			 Manufacturer="Amogh104808826" 
+			 UpgradeCode="{392F2E41-1395-4A17-A008-84DBC483F096}">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+		
+		
+			<Directory Id="TARGETDIR" Name="SourceDir">
+				<Directory Id="ProgramFilesFolder">
+					<Directory Id="INSTALLFOLDER" Name="Price_Categorize" />
+				</Directory>
+			</Directory>
+			<DirectoryRef Id="INSTALLFOLDER">
+
+				<Component Id="MainExecutable"
+						   Guid="{AA4500E8-3F71-41B6-8E84-3702CB13002D}">
+
+					<File Id="PriceCategorizerEXE"
+						  Source="$(var.PriceChecker_Credit_Task1.TargetPath)"
+						  KeyPath="yes" />
+
+				</Component>
+
+			</DirectoryRef>
+			<Feature Id="ProductFeature"
+				 Title="PriceCategorizerSetup"
+				 Level="1">
+
+				<ComponentRef Id="MainExecutable" />
+
+			</Feature>
+		
+		
+	</Product>
+</Wix>

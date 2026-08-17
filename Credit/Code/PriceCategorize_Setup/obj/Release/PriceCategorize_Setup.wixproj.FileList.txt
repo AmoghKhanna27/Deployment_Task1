@@ -1,0 +1,7 @@
+obj\Release\Product.wixobj
+C:\Software deployment\T1\Credit Task\PriceCategorize_Setup\bin\Release\cab1.cab
+C:\Software deployment\T1\Credit Task\PriceCategorize_Setup\bin\Release\PriceCategorize_Setup.msi
+C:\Software deployment\T1\Credit Task\PriceCategorize_Setup\bin\Release\PriceCategorize_Setup.wixpdb
+obj\Release\PriceCategorize_Setup.wixproj.BindContentsFileListnull.txt
+obj\Release\PriceCategorize_Setup.wixproj.BindOutputsFileListnull.txt
+obj\Release\PriceCategorize_Setup.wixproj.BindBuiltOutputsFileListnull.txt

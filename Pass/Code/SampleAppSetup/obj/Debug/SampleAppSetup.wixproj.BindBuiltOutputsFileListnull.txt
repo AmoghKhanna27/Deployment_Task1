@@ -1,0 +1,2 @@
+C:\Software deployment\T1\SampleAppSetup\bin\Debug\SampleAppSetup.msi
+C:\Software deployment\T1\SampleAppSetup\bin\Debug\SampleAppSetup.wixpdb

@@ -1,0 +1,2 @@
+C:\Software deployment\T1\Distinction Task\PriceCategorize_Setup\bin\Release\PriceCategorize_Setup.msi
+C:\Software deployment\T1\Distinction Task\PriceCategorize_Setup\bin\Release\PriceCategorize_Setup.wixpdb

@@ -1,0 +1,6 @@
+C:\Software deployment\T1\Distinction Task\PricingLogic\bin\Release\PricingLogic.dll
+C:\Software deployment\T1\Distinction Task\PricingLogic\bin\Release\PricingLogic.pdb
+C:\Software deployment\T1\Distinction Task\PricingLogic\obj\Release\PricingLogic.csproj.AssemblyReference.cache
+C:\Software deployment\T1\Distinction Task\PricingLogic\obj\Release\PricingLogic.csproj.CoreCompileInputs.cache
+C:\Software deployment\T1\Distinction Task\PricingLogic\obj\Release\PricingLogic.dll
+C:\Software deployment\T1\Distinction Task\PricingLogic\obj\Release\PricingLogic.pdb
